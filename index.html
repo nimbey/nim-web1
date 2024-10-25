@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Address Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <h1>Welcome</h1>
+            <p class="welcome-quote" id="welcome-quote"></p>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Personal Address Book</h1>
+        <form id="addressForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="address" placeholder="Address" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <button type="submit">Add Contact</button><br>
+
+        </form>
+        <button id="viewContactsBtn">View Contacts</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
